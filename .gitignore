@@ -218,3 +218,38 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models
+models/*.pkl
+models/*.joblib
+models/*.pt
+models/*.pth
+
+# Environment
+.env
+
+# OS
+.DS_Store
+
+# Large external datasets
+PlantVillage-Dataset/
+
+# Generated datasets
+data/raw/*
+data/processed/*
