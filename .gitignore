@@ -253,3 +253,9 @@ PlantVillage-Dataset/
 # Generated datasets
 data/raw/*
 data/processed/*
+
+# Trained models
+models/
+*.keras
+*.h5
+*.ckpt
